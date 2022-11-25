@@ -7,7 +7,7 @@ patches:
   - patches/mongo-pvc.yaml
   - patches/mongo-service.yaml
   - patches/pacman-deployment.yaml
-  - patches/pacman-namespace.yaml
   - patches/pacman-service.yaml
   - patches/sa-clusterrolebinding.yaml
   - patches/sa.yaml
+  - patches/route.yaml

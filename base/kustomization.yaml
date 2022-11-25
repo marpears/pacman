@@ -8,3 +8,4 @@ resources:
   - resources/pacman-service.yaml
   - resources/sa-clusterrolebinding.yaml
   - resources/sa.yaml
+  - resources/route.yaml
