@@ -4,7 +4,6 @@ resources:
   - resources/mongo-pvc.yaml
   - resources/mongo-service.yaml
   - resources/pacman-deployment.yaml
-  - resources/pacman-namespace.yaml
   - resources/pacman-service.yaml
   - resources/sa-clusterrolebinding.yaml
   - resources/sa.yaml

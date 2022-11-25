@@ -1,6 +1,9 @@
 bases:
  - ../../base
 
+resources:
+  - resources/pacman-namespace.yaml
+
 patches:
   - patches/mongodb-users-secret.yaml
   - patches/mongo-deployment.yaml
