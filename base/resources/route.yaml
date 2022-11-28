@@ -9,9 +9,8 @@ metadata:
     app.kubernetes.io/version: 0.5.3.1
     apps.open-cluster-management.io/reconcile-rate: medium
   name: pacman
-  namespace: pacman
+  namespace: pacman-rhacm
 spec:
-  host: pacman-pacman.apps.changeme.agriculture.gov.ie
   port:
     targetPort: http
   to:
