@@ -4,7 +4,7 @@ metadata:
   labels:
     name: mongo
   name: mongo
-  namespace: pacman
+  namespace: pacman-rhacm
 spec:
   clusterIP: 172.30.189.150
   clusterIPs:

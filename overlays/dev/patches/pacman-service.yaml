@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: pacman
     app.kubernetes.io/version: 0.5.3.1
   name: pacman
-  namespace: pacman
+  namespace: pacman-rhacm
 spec:
   clusterIP: 172.30.33.157
   clusterIPs:

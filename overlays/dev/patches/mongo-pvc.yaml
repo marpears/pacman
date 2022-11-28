@@ -4,7 +4,7 @@ metadata:
   finalizers:
   - kubernetes.io/pvc-protection
   name: mongo-storage
-  namespace: pacman
+  namespace: pacman-rhacm
 spec:
   accessModes:
   - ReadWriteMany

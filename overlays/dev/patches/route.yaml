@@ -2,9 +2,8 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: pacman
-  namespace: pacman
+  namespace: pacman-rhacm
 spec:
-  host: pacman-pacman.apps.services1.agriculture.gov.ie
   port:
     targetPort: http
   to:

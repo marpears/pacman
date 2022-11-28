@@ -9,4 +9,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: mongo
-  namespace: pacman
+  namespace: pacman-rhacm
