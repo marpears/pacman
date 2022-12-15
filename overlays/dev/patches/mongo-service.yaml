@@ -6,6 +6,9 @@ metadata:
   name: mongo
   namespace: pacman-rhacm
 spec:
+  clusterIP: 172.30.189.150
+  clusterIPs:
+  - 172.30.189.150
   internalTrafficPolicy: Cluster
   ipFamilies:
   - IPv4

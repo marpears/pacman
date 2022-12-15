@@ -1,0 +1,16 @@
+bases:
+ - ../../base
+
+resources:
+  - resources/pacman-namespace.yaml
+
+patches:
+  - patches/mongodb-users-secret.yaml
+  - patches/mongo-deployment.yaml
+  - patches/mongo-pvc.yaml
+  - patches/mongo-service.yaml
+  - patches/pacman-deployment.yaml
+  - patches/pacman-service.yaml
+  - patches/sa-clusterrolebinding.yaml
+  - patches/sa.yaml
+  - patches/route.yaml

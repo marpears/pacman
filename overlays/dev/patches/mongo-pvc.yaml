@@ -7,8 +7,9 @@ metadata:
   namespace: pacman-rhacm
 spec:
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteMany
   resources:
     requests:
       storage: 1Gi
   volumeMode: Filesystem
+  storageClassName: ocs-storagecluster-cephfs
