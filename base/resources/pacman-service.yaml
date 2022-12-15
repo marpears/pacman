@@ -8,9 +8,6 @@ metadata:
   name: pacman
   namespace: pacman
 spec:
-  clusterIP: 172.30.33.157
-  clusterIPs:
-  - 172.30.33.157
   internalTrafficPolicy: Cluster
   ipFamilies:
   - IPv4

@@ -1,0 +1,11 @@
+resources:
+- resources/pacman-namespace.yaml
+- resources/sa.yaml
+- resources/pacman-deployment.yaml
+- resources/pacman-service.yaml
+- resources/mongo-deployment.yaml
+- resources/mongo-pvc.yaml
+- resources/mongo-service.yaml
+- resources/mongodb-users-secret.yaml
+- resources/sa-clusterrolebinding.yaml
+- resources/pacman-route.yaml
