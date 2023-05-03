@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/version: 0.5.3.1
     apps.open-cluster-management.io/reconcile-rate: medium
   name: pacman
-  namespace: pacman-rhacm
+  namespace: pacman
 spec:
   port:
     targetPort: http

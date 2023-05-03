@@ -4,7 +4,7 @@ metadata:
   labels:
     name: mongo
   name: mongo
-  namespace: pacman-rhacm
+  namespace: pacman
 spec:
   internalTrafficPolicy: Cluster
   ipFamilies:

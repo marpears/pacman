@@ -5,7 +5,7 @@ metadata:
   labels:
     name: mongo
   name: mongo
-  namespace: pacman-rhacm
+  namespace: pacman
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
